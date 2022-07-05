@@ -5,6 +5,6 @@
         @csrf
 		<input type="text" name="uid" value="{{$info['uid']}}" hidden="">
         sua: <input type="text" name="uname" placeholder="{{$info['uname']}}">
-        <button type="submit">Thêm</button>
+        <button type="submit">Sua</button>
 	</form>
 </div>
